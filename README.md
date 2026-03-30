@@ -1,6 +1,6 @@
-# Real-Time Urban Object Detection with YOLOv8
+# Real-Time Object Detection in Urban Traffic Scenes Using YOLO-Based Architectures
 
-This repository contains a real-time urban object detection workflow built around YOLOv8. It includes model inference scripts, BDD100K conversion utilities, class-balancing helpers, hard-example mining, and extra dataset fusion steps for Indian traffic scenarios such as IDD remapping and auto-rickshaw integration.
+This repository contains a real-time urban traffic object detection workflow built around YOLO-based architectures. It includes model inference scripts, BDD100K conversion utilities, class-balancing helpers, hard-example mining, and extra dataset fusion steps for Indian traffic scenarios such as IDD remapping and auto-rickshaw integration.
 
 ## Overview
 

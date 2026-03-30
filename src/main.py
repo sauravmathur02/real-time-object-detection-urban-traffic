@@ -17,7 +17,7 @@ def get_video_writer(cap, output_path):
     return cv2.VideoWriter(output_path, fourcc, fps, (width, height))
 
 def main():
-    parser = argparse.ArgumentParser(description="Real-Time Object Detection in Urban Scenes")
+    parser = argparse.ArgumentParser(description="Real-Time Object Detection in Urban Traffic Scenes Using YOLO-Based Architectures")
     parser.add_argument("--source", type=str, default="0", help="Video source: '0' for webcam or path to video file")
     parser.add_argument("--model", type=str, default="yolov8n.pt", help="YOLOv8 model weight file")
     parser.add_argument("--output", type=str, default="output.mp4", help="Path to save output video (optional)")
@@ -56,7 +56,7 @@ def main():
         
         cv2.putText(annotated_frame, f"FPS: {fps:.2f}", (10, 30), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 2)
 
-        cv2.imshow("Urban Object Detection", annotated_frame)
+        cv2.imshow("Urban Traffic Object Detection", annotated_frame)
         
         if out:
             out.write(annotated_frame)

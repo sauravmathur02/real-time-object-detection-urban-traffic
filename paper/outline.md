@@ -1,4 +1,4 @@
-# Real-Time Object Detection in Urban Scenes Using Deep Learning
+# Real-Time Object Detection in Urban Traffic Scenes Using YOLO-Based Architectures
 
 **Abstract**
 Brief summary of the problem (urban complexity), the proposed solution (YOLOv8), and key results (FPS, accuracy).
