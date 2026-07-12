@@ -1,4 +1,4 @@
-path: ./bdd_yolo
+path: c:/Repo/object-Detection/data1/bdd_yolo
 train: images/train
 val: images/val
 
