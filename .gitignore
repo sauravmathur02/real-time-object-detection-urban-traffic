@@ -1,8 +1,10 @@
 # Python
 __pycache__/
-venv/
-.env
 *.pyc
+.env
+.venv/
+venv/
+venv_gpu/
 
 # Node
 node_modules/
@@ -11,11 +13,29 @@ node_modules/
 dist/
 build/
 
-# Data
-data/
-datasets/
-*.zip
-
 # Editor
 .vscode/
 .idea/
+
+# Data and experiment artifacts
+data/
+data1/*
+!data1/*.yaml
+datasets/
+runs/
+SampleVideosForDetection/
+*.zip
+
+# Weights
+*.pt
+
+# Videos
+*.mp4
+*.mkv
+*.avi
+*.gif
+
+# Images
+*.jpg
+*.jpeg
+*.png

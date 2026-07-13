@@ -3,3 +3,6 @@ opencv-python
 numpy
 matplotlib
 pandas
+tqdm
+fastapi
+uvicorn
