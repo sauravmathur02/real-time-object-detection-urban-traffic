@@ -1,0 +1,52 @@
+{
+    "Total images": 48714,
+    "Training images": 34550,
+    "Validation images": 14164,
+    "Number of labels (Total Bounding Boxes)": 638286,
+    "Number of classes": 10,
+    "Class names": [
+        "pedestrian",
+        "rider",
+        "car",
+        "truck",
+        "bus",
+        "motorcycle",
+        "bicycle",
+        "traffic light",
+        "traffic sign",
+        "auto"
+    ],
+    "Instances per class": {
+        "pedestrian": 77942,
+        "rider": 86927,
+        "car": 214708,
+        "truck": 29726,
+        "bus": 18836,
+        "motorcycle": 91711,
+        "bicycle": 2783,
+        "traffic light": 30242,
+        "traffic sign": 52173,
+        "auto": 33238
+    },
+    "Images per class": {
+        "pedestrian": 19128,
+        "rider": 23254,
+        "car": 37136,
+        "truck": 17214,
+        "bus": 11407,
+        "motorcycle": 25250,
+        "bicycle": 2407,
+        "traffic light": 7187,
+        "traffic sign": 16471,
+        "auto": 14047
+    },
+    "Missing labels": 0,
+    "Empty images": 0,
+    "Corrupted images": 0,
+    "Average objects per image": 13.102722010099766,
+    "Maximum objects in one image": 125,
+    "Minimum objects in one image": 1,
+    "Median objects per image": 9.0,
+    "Dataset disk size (MB)": 262767.91853904724,
+    "Class imbalance ratio": 77.1498383039885
+}

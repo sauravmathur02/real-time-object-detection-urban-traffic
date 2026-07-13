@@ -1,0 +1,32 @@
+{
+    "Total images": "See underlying YOLO dataset YAML",
+    "Total labels": "See underlying YOLO dataset YAML",
+    "Final classes": [
+        "pedestrian",
+        "rider",
+        "car",
+        "truck",
+        "bus",
+        "motorcycle",
+        "bicycle",
+        "traffic light",
+        "traffic sign",
+        "auto"
+    ],
+    "Ignored classes": [
+        "train",
+        "trailer",
+        "other person",
+        "other vehicle"
+    ],
+    "Dataset location": "data1/bdd_balanced",
+    "Execution time (seconds)": 542.6,
+    "Executed stages": [
+        "convert",
+        "verify",
+        "balance",
+        "merge_idd",
+        "auto",
+        "final_verify"
+    ]
+}

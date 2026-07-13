@@ -1,0 +1,2 @@
+Total images,Training images,Validation images,Number of labels (Total Bounding Boxes),Number of classes,Missing labels,Empty images,Corrupted images,Average objects per image,Maximum objects in one image,Minimum objects in one image,Median objects per image,Dataset disk size (MB),Class imbalance ratio
+48714,34550,14164,638286,10,0,0,0,13.102722010099766,125,1,9.0,262767.91853904724,77.1498383039885
