@@ -53,7 +53,13 @@ def get_yolov7_cmd(model_name, args, project_dir):
         "--batch-size", str(args.batch),
         "--epochs", str(args.epochs),
         "--data", args.dataset,
-        "--weights", f"{model_name}.pt",
+        "--weights", str(
+            Path(__file__).resolve().parents[1]
+            / "frameworks"
+            / "yolov7"
+            / "weights"
+            / f"{model_name}.pt"
+        ),
         "--project", str(project_dir),
         "--name", f"train_{model_name}",
     ]
