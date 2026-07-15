@@ -1,0 +1,5 @@
+# Evaluation Metrics for yolov8s
+
+| Precision | Recall | mAP50 | mAP50-95 | Inference time (ms/img) | Model |
+|---|---|---|---|---|---|
+| 0.6262583171049007 | 0.41642689717377196 | 0.45729598412094286 | 0.29965402154748455 | 2.41200737085045 | yolov8s |
